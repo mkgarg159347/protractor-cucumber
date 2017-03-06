@@ -1,0 +1,30 @@
+// options defined here http://jshint.com/docs/options/
+{
+    "strict": "global",
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "latedef": false,
+    "noarg": true,
+    "undef": true,
+    "unused": true,
+    "node": true,
+    "validthis": true,
+    "esnext": true,
+    "globals": {
+        "browser": false,
+        "element": false,
+        "by": false,
+        "$": true,
+        "expect": false,
+        "assert": false,
+        "$$": false,
+        "$x": false,
+        "protractor": false,
+        "env": false,
+        "action": false,
+        "validate": false,
+        "wait": false,
+        "apiUrl": false
+    }
+}
